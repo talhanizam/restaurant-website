@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* navigation bar*/
+.navbar {
+    height: 50px;
+    opacity: 0.80;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+#list-items {
+    float: right;
+    padding-right: 100px;
+
+}
+
+#list-items li {
+    display: inline;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#list-items a {
+    color: white;
+    opacity: 100%;
+
+}
+
+/* Index intro */
+.ipic {
+    background-image: url('assets/index1foodmed.jpg');
+    padding-top: 263px;
+    padding-bottom: 263px;
+    padding-left: 500px;
+    color: white;
+    background-size: cover;
+}
+
+#blue {
+    font-size: 90px;
+    color: black;
+    opacity: 0.90;
+}
+
+#quality {
+    font-size: 30px;
+    color: black;
+}
+
+/*about us*/
+
+#About {
+    padding: 78px;
+    background-color: burlywood;
+    margin: 0;
+
+}
+
+.about-img img {
+    height: auto;
+    width: 420px;
+    margin-left: 70Fpx;
+}
+
+.about-text {
+    width: 550px;
+    margin-right: 50px;
+}
+
+.about-main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.small {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-p {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+/*Menu*/
+
+.wrapper {
+    width: 1200px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+}
+
+.menu-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu-title h4 {
+    text-transform: capitalize;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-title h4 span {
+    display: block;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: -10px;
+    color: tomato;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-menu {
+    flex-basis: 580px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid coral;
+}
+
+.single-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.single-menu img {
+    max-width: 180px;
+    margin-right: 30px;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+.single-menu h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.single-menu h4 span {
+    float: right;
+    color: tomato;
+    font-style: italic;
+}
+
+/*Testimonials*/
+
+.testimonials {
+    padding: 80px 0;
+    background: bisque;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-size: 44.8;
+    font-weight: 400;
+    color: black;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22.4px;
+    padding: 16px;
+}
+
+.testimonial-box .checked {
+    color: tomato;
+}
+
+.testimonial-box .testimonial-text {
+    margin: 1rem 0;
+    color: black;
+}
+
+.testimonial-box {
+    text-align: center;
+    padding: 16pxrem;
+}
+
+.customer-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
